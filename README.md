@@ -2,8 +2,8 @@
 This is an example of comunication between microservices using message queue, where I used MassTransit and RabbitMQ
 
 ## What the app does?
-Microservice1 is listening messages (ICreateBetCommand) from the "create_bet" queue.
-Microservice2 (ConsoleApp1) produce messages(ICreateBetCommand).
+Microservice1 is listening messages (ICreateBetCommand) from the "create_bet" queue.  
+Microservice2 (ConsoleApp1) produce messages(ICreateBetCommand).  
 When you insert a new message in the queue with Microservice2, this new message is going to be intercepted (read) by the "CreateBetConsumer" at Microservice1.  
 
 Just it. :)
