@@ -13,10 +13,10 @@ Just it. :)
 - You will need .Net CORE 2.2 and docker 
 - Before run the projects, run RabbitMQ container with docker
 
-	docker run -p 5672:5672 -p 15672:15672 rabbitmq:3-management
-	http://localhost:15672/#/
-	user: guest
-	passw: guest
+	docker run -p 5672:5672 -p 15672:15672 rabbitmq:3-management  
+	http://localhost:15672/#/  
+	user: guest  
+	passw: guest  
 
 
 ## Contact:
